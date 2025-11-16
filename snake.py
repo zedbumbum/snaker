@@ -13,8 +13,8 @@ canvas.pack()
 snake = [(10, 10)]
 dx = 1
 dy = 0
-food = (random.randint(0, W//SIZE - 1)),
-random.randint(0, H//SIZE - 1)
+food = (random.randint(0, W//SIZE - 1),random.randint(0, H//SIZE - 1))
+
 def draw():
     canvas.delete("all")
     fx, fy = food
